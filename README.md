@@ -16,3 +16,24 @@ A full-stack cloud-based note-taking application inspired by Google Keep.
 - Responsive UI
 
 ## Project Structure
+Keeper/
+├── FrontEnd/
+│ ├── src/
+│ │ └── components/
+│ │ ├── App.jsx
+│ │ ├── CreateArea.jsx
+│ │ ├── Note.jsx
+│ │ ├── Header.jsx
+│ │ └── Footer.jsx
+│ │ └── index.jsx
+│ ├── public/
+│ ├── package.json
+│ └── vite.config.js
+│
+├── BackEnd/
+│ ├── server.js
+│ ├── package.json
+│ └── node_modules/
+│
+├── .gitignore
+└── README.md
