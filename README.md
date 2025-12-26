@@ -1,3 +1,4 @@
+
 # Keeper – Full Stack MERN Note-Taking App
 
 A full-stack cloud-based note-taking application inspired by Google Keep.
@@ -16,15 +17,17 @@ A full-stack cloud-based note-taking application inspired by Google Keep.
 - Responsive UI
 
 ## Project Structure
+
+```
 Keeper/
 ├── FrontEnd/
 │ ├── src/
-│ │ └── components/
-│ │ ├── App.jsx
-│ │ ├── CreateArea.jsx
-│ │ ├── Note.jsx
-│ │ ├── Header.jsx
-│ │ └── Footer.jsx
+│ │ ├── components/
+│ │ │ ├── App.jsx
+│ │ │ ├── CreateArea.jsx
+│ │ │ ├── Note.jsx
+│ │ │ ├── Header.jsx
+│ │ │ └── Footer.jsx
 │ │ └── index.jsx
 │ ├── public/
 │ ├── package.json
@@ -37,3 +40,23 @@ Keeper/
 │
 ├── .gitignore
 └── README.md
+```
+
+## Run Locally
+
+### Prerequisites
+- Node.js
+- MongoDB (running on `localhost:27017`)
+
+### Backend Setup
+```bash
+cd BackEnd
+npm install
+node server.js
+```
+### Frontend Setup
+```bash
+cd FrontEnd
+npm install
+npm run dev
+```
